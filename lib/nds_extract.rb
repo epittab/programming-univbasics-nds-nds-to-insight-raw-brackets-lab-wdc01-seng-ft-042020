@@ -30,11 +30,10 @@ def directors_totals(nds)
       j += 1
     end
     
-    puts nds[i][:name]
-    puts movie_gross
+    result = {nds[i][:name] => movie_gross}
 
     i += 1
     end
 
-  nil
+  return result
 end
