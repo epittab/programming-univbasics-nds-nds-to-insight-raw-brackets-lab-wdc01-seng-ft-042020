@@ -22,13 +22,13 @@ def directors_totals(nds)
   pp nds
   
 
-  i = 0 
+#  i = 0 
   
-  while i < nds.count do
+#  while i < nds.count do
     
-    puts nds[i][:name]
-    i += 1
-  end
+#    puts nds[i][:name]
+#    i += 1
+#  end
   
 
   nil
