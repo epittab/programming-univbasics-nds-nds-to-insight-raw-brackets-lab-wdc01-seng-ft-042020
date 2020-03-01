@@ -27,6 +27,7 @@ def directors_totals(nds)
 #  while i < nds.count do
     
 #    puts nds[i][:name]
+#   puts nds[i][:movies][j][]
 #    i += 1
 #  end
   
