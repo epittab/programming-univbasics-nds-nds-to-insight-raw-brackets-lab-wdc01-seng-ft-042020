@@ -19,6 +19,9 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
 
+  pp nds
+  =begin
+
   i = 0 
   
   while i < nds.count do
@@ -27,5 +30,6 @@ def directors_totals(nds)
     i += 1
   end
   
+  =end
   nil
 end
