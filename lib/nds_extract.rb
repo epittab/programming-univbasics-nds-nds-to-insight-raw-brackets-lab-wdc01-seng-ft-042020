@@ -30,7 +30,8 @@ def directors_totals(nds)
       j += 1
     end
     
-    result = nds[i][:name] => movie_gross
+   
+    result[nds[i][:name]] = movie_gross
 
     i += 1
     end
